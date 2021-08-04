@@ -60,7 +60,7 @@ def error(bot, update):
 
 if __name__ == "__main__":
     bot = Bot(TOKEN)
-    bot.set_webhook(" https://e63140a0bd08.ngrok.io/" + TOKEN)
+    bot.set_webhook("http://3da69815acf4.ngrok.io " + TOKEN)
 
     dp = Dispatcher(bot, None)
     dp.add_handler(CommandHandler("start", start))
